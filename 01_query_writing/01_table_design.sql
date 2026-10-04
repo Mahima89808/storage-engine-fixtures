@@ -44,3 +44,6 @@ VALUES
 -- 3. View your perfect table
 SELECT item_id, item_name, category, price, stock_quantity 
 FROM hardware_inventory;
+
+
+SELECT datname FROM PG_DATABASE;
